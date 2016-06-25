@@ -4,7 +4,7 @@ STC_PATH="/Users/lizheming/Desktop/workspace/stc"
 elif [ -d "/Users/akira_cn/Workspace/thinkjs/firekylin/stc/src" ]; then
 STC_PATH="/Users/akira_cn/Workspace/thinkjs/firekylin/stc/src"
 else
-STC_PATH="/Users/welefen/Develop/git/stc/src"
+STC_PATH="/Users/xiaoyan/working/github/52dachu/src"
 fi
 path=`dirname $0`;
 first=${path:0:1};
@@ -91,8 +91,8 @@ rm -rf firekylin/;
 cd build;
 tar zxvfm $TARNAME;
 
-HOST="qiw""oo@firekylin.org";
-REMOTE_TAR="/home/qiw""oo/www/firekylin.org/www/release";
-scp $TARNAME $HOST:$REMOTE_TAR;
-ssh $HOST cp $REMOTE_TAR/$TARNAME $REMOTE_TAR/latest.tar.gz;
-ssh $HOST "echo $VERSION > $REMOTE_TAR/.latest";
+# HOST="qiw""oo@firekylin.org";
+# REMOTE_TAR="/home/qiw""oo/www/firekylin.org/www/release";
+# scp $TARNAME $HOST:$REMOTE_TAR;
+# ssh $HOST cp $REMOTE_TAR/$TARNAME $REMOTE_TAR/latest.tar.gz;
+# ssh $HOST "echo $VERSION > $REMOTE_TAR/.latest";

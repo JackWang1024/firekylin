@@ -61,6 +61,7 @@
     "react-mixin": "^3.0.3",
     "react-router": "^2.0.0-rc5",
     "reflux": "^0.3.0",
+    "shipit-deploy": "^2.2.0",
     "style-loader": "^0.13.0",
     "superagent": "^1.7.2",
     "webpack": "^1.12.12"
