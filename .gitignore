@@ -17,9 +17,9 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-app
-www/static/dist
-www/static/js
+# app
+# www/static/dist
+# www/static/js
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
