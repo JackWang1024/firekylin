@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/common/logic/base.js"
+    ],
+    "names": [],
+    "mappings": "AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;mBAWE,W,0BAAa;AACX,YAAQ,GAAR,CAAY,gBAAZ;AACD,G;;;EAP0B,MAAM,KAAN,CAAY,I",
+    "file": "../../../src/common/logic/base.js",
+    "sourcesContent": [
+        "'use strict';\n/**\n * logic\n * @param  {} []\n * @return {}     []\n */\nexport default class extends think.logic.base {\n  /**\n   * index action logic\n   * @return {} []\n   */\n  indexAction(){\n    console.log('-------------2');\n  }\n}"
+    ]
+}

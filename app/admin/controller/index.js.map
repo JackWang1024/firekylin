@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/admin/controller/index.js"
+    ],
+    "names": [],
+    "mappings": ";;;;;;;;;;;;;;;;AAAA;;;;;;;;;;;;;;mBAGE,W,0BAAc;AACZ,YAAQ,GAAR,CAAY,GAAZ;AACA,WAAO,KAAK,OAAL,EAAP;AACD,G;;;EAJ0B,MAAM,UAAN,CAAiB,I",
+    "file": "../../../src/admin/controller/index.js",
+    "sourcesContent": [
+        "import Base from './base.js';\n\nexport default class extends think.controller.base {\n  indexAction() {\n    console.log(123)\n    return this.display();\n  }\n}"
+    ]
+}

@@ -7,7 +7,7 @@
 exports.__esModule = true;
 exports.default = {
   type: 'mysql',
-  log_sql: true,
+  log_sql: false,
   log_connect: true,
   adapter: {
     mysql: {

@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/common/config/db.js"
+    ],
+    "names": [],
+    "mappings": "AAAA;;;;;;;kBAKe;AACb,QAAM,OADO;AAEb,WAAS,KAFI;AAGb,eAAa,IAHA;AAIb,WAAS;AACP,WAAO;AACL,YAAM,WADD;AAEL,YAAM,EAFD;AAGL,gBAAU,SAHL;AAIL,YAAM,MAJD;AAKL,gBAAU,MALL;AAML,cAAQ,KANH;AAOL,gBAAU;AAPL,KADA;AAUP,WAAO;AAVA;AAJI,C",
+    "file": "../../../src/common/config/db.js",
+    "sourcesContent": [
+        "'use strict';\n/**\n * db config\n * @type {Object}\n */\nexport default {\n  type: 'mysql',\n  log_sql: false,\n  log_connect: true,\n  adapter: {\n    mysql: {\n      host: '127.0.0.1',\n      port: '',\n      database: '52dachu',\n      user: 'root',\n      password: 'root',\n      prefix: 'dc_',\n      encoding: 'utf8'\n    },\n    mongo: {\n    }\n  }\n};"
+    ]
+}
